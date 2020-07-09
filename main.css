@@ -1,0 +1,116 @@
+/*Navigation*/
+
+
+.col-btn {
+	margin-right: 10px;
+}
+
+.navigation {
+	margin: 5px;
+	background-color: orange;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.navigation:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.logo {
+	margin-left: 5px;
+	width: 70px;
+	border-radius: 50%;
+	border: 3px solid black;
+}
+
+.nav-text {
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Bangers';
+	font-size: 40px;
+	padding-left: 6px;
+	padding-right: 10px;
+	text-shadow: 3px 3px black;
+}
+
+.nav-item {
+	margin:20px;
+}
+
+.nav-link {
+	border: 2px solid transparent;
+	font-size: 700;
+	padding: 1em;
+}
+
+.navbar-collapse{ 
+	justify-content: flex-end;
+}
+
+.nav-link:hover {
+	padding: 1em;
+	margin: auto;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+
+/*
+**Header
+*/
+
+.header {
+	margin: 20px;
+	background-color: cyan;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding: 1em;
+}
+
+.header:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.header h1 {
+	font-weight: 400;
+	font-family: 'Bangers';
+}
+
+/*
+**About
+*/
+
+.about {
+	margin: 20px;
+	background-color: cyan;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding: 1em;
+}
+
+
+.about:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.about h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: 'Bangers';
+}
+
+.image {
+	padding-bottom: 1em;
+	padding-left: 5em;
+}
+
+.image img {
+	border-radius: 50%;
+	width: 150px;
+}
+
+.about-me p {
+	padding-top: 30px;
+	text-align: left;
+}
