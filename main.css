@@ -46,10 +46,6 @@
 	padding: 1em;
 }
 
-.navbar-collapse{ 
-	justify-content: flex-end;
-}
-
 .nav-link:hover {
 	padding: 1em;
 	border: 2px solid black;
