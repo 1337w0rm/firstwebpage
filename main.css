@@ -27,11 +27,28 @@
 	color: white;
 	text-transform: uppercase;
 	font-family: 'Bangers';
-	font-size: 40px;
 	padding-left: 6px;
 	padding-right: 10px;
 	text-shadow: 3px 3px black;
 }
+
+@media screen and (max-width: 310px) {
+	.nav-text {
+		color: white;
+		text-transform: uppercase;
+		font-family: 'Bangers';
+		text-shadow: 3px 3px black;
+		padding:0;
+	}
+
+	.logo {
+		align-content: center;
+		width: 30px;
+		border-radius: 50%;
+		border: 3px solid black;
+		padding:0;
+	}
+} 
 
 .nav-item {
 	margin:20px;
