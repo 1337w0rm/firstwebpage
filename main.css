@@ -1,5 +1,10 @@
-/*Navigation*/
+#about , #connect { 
+  margin-top: -300px;        /* Size of fixed header */
+  padding-bottom: 300px; 
+  display: block; 
+}
 
+/*Navigation*/
 
 .col-btn {
 	margin-right: 10px;
@@ -56,7 +61,6 @@
 
 .nav-link {
 	border: 2px solid transparent;
-	font-size: 700;
 	padding: 1em;
 }
 
@@ -66,7 +70,6 @@
 
 .nav-link:hover {
 	padding: 1em;
-	margin: auto;
 	border: 2px solid black;
 	border-radius: 5px;
 }
@@ -102,7 +105,7 @@
 	background-color: cyan;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-	padding: 1em;
+	padding: 1em 1em 1em 1em;
 }
 
 
@@ -130,4 +133,41 @@
 .about-me p {
 	padding-top: 30px;
 	text-align: left;
+}
+
+/*
+**Connect
+*/
+
+.connect {
+	margin: 20px;
+	background-color: cyan;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding: 1em;
+}
+
+
+.connect:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.connect h1 {
+	text-align: center;
+	font-family: 'Bangers';
+	padding-bottom: 1em;
+}
+
+.connect .github {
+	width: 200px;
+	margin: 0 0 2em 4em; 
+}
+
+.connect .insta {
+	width: 200px;
+	margin: 0 0 2em 4em;
+}
+.connect .linked {
+	width: 200px;
+	margin: 0 0 2em 4em;
 }
