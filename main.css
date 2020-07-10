@@ -25,8 +25,18 @@
 .navigation h3 {
 	text-transform: uppercase;
 	font-family: 'Bangers';
-	font-size: 40px;
+	font-size: 25px;
+	margin-left: -30px;
 }
+
+.navbar-brand {
+	margin-left: 10px;
+}
+
+.navigation button {
+	margin-left: -30px;
+}
+
 /*
 **Header
 */
