@@ -4,11 +4,12 @@
   	display: block;
 }
 
-body {
+body, nav {
 	background-image: url(img/background.jpg);
 }
 
 /*Navigation*/
+
 
 .navigation {
 	margin: 0px;
