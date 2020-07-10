@@ -57,7 +57,10 @@
 .header h1 {
 	font-weight: 400;
 	font-family: 'Bangers';
+	margin: 0 auto;
 }
+
+
 
 /*
 **About
@@ -86,6 +89,7 @@
 .image {
 	padding-bottom: 1em;
 	padding-left: 5em;
+	margin: 0 auto;
 }
 
 .about img {
