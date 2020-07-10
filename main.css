@@ -17,24 +17,25 @@
 }
 
 .navigation img {
-	width: 70px;
+	width: 2em;
 	border-radius: 50%;
 	border: 3px solid black
 }
 
+.navbar-brand {
+	margin-left: 5px;
+}
+
 .navigation h3 {
+	text-align: center;
 	text-transform: uppercase;
 	font-family: 'Bangers';
 	font-size: 25px;
-	margin-left: -30px;
-}
-
-.navbar-brand {
-	margin-left: 10px;
+	margin-left: 5px;
 }
 
 .navigation button {
-	margin-left: -30px;
+	margin-right: 10px;
 }
 
 /*
