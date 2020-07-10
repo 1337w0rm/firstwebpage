@@ -89,7 +89,6 @@
 .image {
 	padding-bottom: 1em;
 	padding-left: 5em;
-	margin: 0 auto;
 }
 
 .about img {
@@ -119,7 +118,7 @@
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.connect h1 {
+.connect h3,h1 {
 	text-align: center;
 	font-family: 'Bangers';
 	padding-bottom: 1em;
