@@ -31,12 +31,11 @@
 	text-transform: uppercase;
 	font-family: 'Bangers';
 	font-size: 25px;
-	margin-left: 5px;
-	margin-top: 10px;
+	margin: 0 auto;
 }
 
 .navigation button {
-	margin-right: 10px;
+	margin-right: 15px;
 }
 
 /*
