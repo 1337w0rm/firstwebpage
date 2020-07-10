@@ -4,6 +4,10 @@
   	display: block;
 }
 
+body {
+	background-image: url(img/background.jpg);
+}
+
 /*Navigation*/
 
 .navigation {
